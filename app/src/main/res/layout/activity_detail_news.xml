@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:id="@+id/headline"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:paddingTop="10dp"
+                android:id="@+id/foto_news_detail"
+                android:layout_width="325dp"
+                android:layout_height="170dp"
+                android:src="@drawable/news1"
+                android:contentDescription="@string/todo"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/kolom_judul"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_below="@id/headline"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/judul_news_detail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginTop="10dp"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-black"
+                android:gravity="center"
+                tools:text="@string/judul"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_margin="15dp"
+            android:backgroundTint="@color/abuAbu"
+            android:background="@drawable/background_with_shadow">
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="56dp"
+                android:layout_height="56dp"
+                android:src="@drawable/dicoding_intern"
+                android:id="@+id/authorphoto_news_detail"
+                android:layout_marginEnd="16dp"/>
+            <TextView
+                android:id="@+id/author_news_detail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:text="@string/author"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="15dp">
+            <TextView
+                android:id="@+id/des_news_detail"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/cantarell"
+                android:padding="10dp"
+                android:textSize="17sp"
+                tools:text="@string/deskripsi" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">LyrirakiNews</string>
+    <string name="todo">TODO</string>
+    <string name="lyriraki_news">Lyriraky News</string>
+    <string name="enjoy_your_day">Enjoy Your Day</string>
+    <string name="deskripsi">Deskripsi</string>
+    <string name="judul">Judul</string>
+    <string name="author">Author</string>
+    <string name="menu_bookmark">mybookmark</string>
+    <string name="menu_myprofile">myprofile</string>
+    <string name="ini_boolean">ini Boolean</string>
+    <string name="search">Search</string>
+    <string name="about">About</string>
+    <string name="myName">Lucky Arif Rahman Hakim</string>
+    <string name="myEmail">Luckyarif21@gmail.com</string>
+</resources>

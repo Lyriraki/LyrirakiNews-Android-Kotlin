@@ -1,0 +1,2 @@
+rootProject.name='LyrirakiNews'
+include ':app'
